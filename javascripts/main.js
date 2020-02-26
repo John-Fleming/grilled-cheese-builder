@@ -8,9 +8,11 @@
 // setSelectedBread = assign a variable (selectedBreadId) to the id passed in (console.log the id)
 
 import breadButtons from './components/bread.js';
+import cheeseButtons from './components/cheese.js';
 
 const init = () => {
     breadButtons.makeBreadRadioButtons();
+    cheeseButtons.makeCheeseButtons();
 };
 
 init();
